@@ -1,0 +1,76 @@
+class Footbaleri:
+
+    def team1(self):
+        print('Меся')
+    def team2(self):
+        print('Ранадо')
+    def team3(self):
+        print('Баппо')
+    def team4(self):
+        print('Гордон')
+    def team5(self):
+        print('Марченко')
+    def team6(self):
+        print('Обамка')
+    def team7(self):
+        print('Черный')
+    def team8(self):
+        print('Фомин')
+    def team9(self):
+        print('Петренко')
+    def team10(self):
+        print('Романенко')
+    def team11(self):
+        print('Сербов')
+    def num1(self):
+        print('8')
+    def num2(self):
+        print('6')
+    def num3(self):
+        print('17')
+    def num4(self):
+        print('46')
+    def num5(self):
+        print("45")
+    def num6(self):
+        print('7')
+    def num7(self):
+        print('3')
+    def num8(self):
+        print('5')
+    def num9(self):
+        print('15')
+    def num10(self):
+        print('27')
+    def num11(self):
+        print('31')
+    
+
+
+
+def main():
+    F = Footbaleri()
+    F.team1()
+    F.num1()
+    F.team2()
+    F.num2()
+    F.team3()
+    F.num3()
+    F.team4()
+    F.num4()
+    F.team5()
+    F.num5()
+    F.team6()
+    F.num6()
+    F.team7()
+    F.num7()
+    F.team8()
+    F.num8()
+    F.team9()
+    F.num9()
+    F.team10()
+    F.num10()
+    F.team11()
+    F.num11()
+
+main()
