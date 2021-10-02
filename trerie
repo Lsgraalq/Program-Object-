@@ -1,0 +1,44 @@
+class Telik:
+    def number(self,chanel):
+        if chanel >= 51:
+            print("Тут только 50 каналов(")
+            setting()
+        elif chanel > 0:
+            print('Вы выбрали канал ', chanel)
+        else:
+            print("Тут нету каналов меньше 0")
+            setting()
+    def volum(self, volume):
+        if volume >= 101:
+            print("Максимальна допустимая громкость 100")
+            setting()
+        elif volume > 0:
+            print('Вы выбрали громкость ', volume)
+        else:
+            print("Телевизор не слышно")
+            setting()
+
+volume = int(input("Введите громкость телевизора "))
+chanel = int(input("Введите номер канала который хотите смотреть "))
+def setting():
+    tv = Telik()
+    choise = None
+    while choise != 0:
+        print("""Настройте телевизор 
+        Введите 0 что бы выйти с настроек и начать просмотр 
+        Введите 1 чтобы поменять громкость
+        Введите 2 чтобы поменять канал
+         """)
+        choise = int(input())
+        if choise == 0:
+            print("Удачного просмотра")
+        elif choise == 1:
+            volume = int(input("Введите новую громкость "))
+            tv.volum(volume)
+
+        elif choise == 2:
+            number = int(input("Введите новую громкость"))
+            tv.number(chanel)
+            
+
+setting()
