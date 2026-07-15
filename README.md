@@ -1,5 +1,7 @@
 # Program-Object-
 
+> **Created: September 2021** — early learning project (beginner OOP practice in Python).
+
 Early practice with **object-oriented programming in Python** — a set of small classes covering the basics: defining classes and methods, `__init__`, properties/setters, static methods, encapsulation, and simple text menus.
 
 > The files have no `.py` extension, but they are plain Python scripts. Run them with, e.g. `python pervoe`.
